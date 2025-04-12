@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>BoringSRV | Home</title>
+
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="nav-button"><a href="/main.html">Home</a></div>
+        <div class="nav-button"><a href="/srv-info">Server Info</a></div>
+    </div>
+
+    <div class="container">
+        <h1>Boring <span class="golden">Server</span></h1>
+        <div class="server-ip">
+            <h2>⬇︎ Minecraft Server IP ⬇︎</h2>
+            <button class="copy-btn" onclick="copyIP()">Copy IP</button>
+        </div>
+    </div>
+
+    <script>
+        function copyIP() {
+            navigator.clipboard.writeText("boringsrv.ttfmc.net").then(() => {
+                const button = document.querySelector('.copy-btn');
+                button.innerText = "Copied!";
+                button.style.backgroundColor = "#4CAF50";
+
+                setTimeout(() => {
+                    button.innerText = "Copy IP";
+                    button.style.backgroundColor = "#007BFF";
+                }, 2000);
+            }).catch(err => {
+                console.error("Error copying IP: ", err);
+            });
+        }
+    </script>
+
+    <div class="srv-about">
+        <div class="srv-item">
+            <h2>關於伺服器</h2>
+            <p>Hi ! 我是伺服器<span class="red">創辦者</span><span class="aqua"> <a href="https://youtube.com/@InyTw87" target="_blank" class="yt">InyTw</a></span>
+            <p>此伺服器為 <strong><span class="gold">生存伺服器</span></strong>, 
+                <br>取名為 "<span class="gold">無聊生存伺服器</span>"的原因是因為 
+                <br>那時真的很無聊 想說要不要再創一個生存伺服器
+                <br>然後這伺服器就誕生了
+                <br><h3>對
+                <br>
+                <br>要開心，就是要玩樂。不開心，就是要讓自己開心
+                <br>沒有一件事情 不能讓你開心的
+            </p>
+        </div>
+    </div>
+
+    <footer class="footer-1">
+        <p class="power"><h6>© 2025 BoringSRV 保留所有權利</h6></p>
+    </footer>
+
+</body>
+</html>
