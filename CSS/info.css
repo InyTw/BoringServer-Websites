@@ -7,6 +7,7 @@ body {
     color: aliceblue;
 }
 
+/* navbar */
 .navbar {
     background-color: #555555;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -57,12 +58,76 @@ h1 .aqua {
     background-color: rgb(31, 31, 31);
     max-width: 800px;
     margin: 4em auto;
-    padding: 2em;
+    padding: 1em;
     border-radius: 1em;
     color: #ffffff
 }
 
-a {
+
+/* Discord & YouTube Link */
+
+
+.dc-icon {
+    width: 1.6em;
+    height: 1.6rem;
+    padding: 0 0.5em;
+    border-radius: 0em;
+    margin: -6px;
+}
+
+
+.dc {
+    color: #00fff2;
     text-decoration: none;
-    color: #00e1ff;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+
+.dc:hover {
+    color: #ffffff;
+    transform: none;
+}
+
+
+.yt {
+    color: red;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+
+.yt:hover {
+    color: darkred;
+    transform: none;
+}
+
+
+/* footer */
+.footer-1 {
+    text-align: center;
+    background-color: #555555;
+    max-width: 10000px;
+    max-height: 10000px;
+    margin: 0em auto;
+    padding: 1ex;
+
+}
+
+.power {
+    text-align: center;
+    max-width: 50px;
+    max-height: 50px;
+    padding: 0em auto;
+    margin: 10em auto;
+}
+
+h6 {
+    font-weight: bold;
+    color: white;
 }

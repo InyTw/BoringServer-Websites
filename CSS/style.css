@@ -122,18 +122,3 @@ h1 .golden {
     padding: 0em auto;
     margin: 10em auto;
 }
-
-
-.discord a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: bold;
-    transition: color 0.5s ease, transform 0.3s ease;
-    border-radius: 0.5em;
-}
-
-.discord a:hover {
-    color: #00aeff;
-    transform: scale(1.1);
-}
