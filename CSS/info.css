@@ -47,11 +47,11 @@ body {
     background-color: rgb(31, 31, 31);
 }
 
-
 h1 .aqua {
     color: #00fff2
 }
 
+/* Main Block */
 .main {
     text-align: center;
     font-weight: bold;
@@ -63,9 +63,33 @@ h1 .aqua {
     color: #ffffff
 }
 
+.main2 {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(31, 31, 31);
+    max-width: 800px;
+    margin: 4em auto;
+    padding: 1em;
+    border-radius: 1em;
+    color: #ffffff
+}
+
+.main3 {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(31, 31, 31);
+    max-width: 800px;
+    margin: 4em auto;
+    padding: 1em;
+    border-radius: 1em;
+    color: #ffffff
+}
+
+.E-smp1 {
+    color: red;
+}
 
 /* Discord & YouTube Link */
-
 
 .dc-icon {
     width: 1.6em;
@@ -75,9 +99,8 @@ h1 .aqua {
     margin: -6px;
 }
 
-
 .dc {
-    color: #00fff2;
+    color: #00aeff;
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bold;
@@ -87,7 +110,7 @@ h1 .aqua {
 }
 
 .dc:hover {
-    color: #ffffff;
+    color: #0071a5;
     transform: none;
 }
 
@@ -107,6 +130,40 @@ h1 .aqua {
     transform: none;
 }
 
+.builder {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 0.1em 0.1em;
+    border-radius: 0.5em;
+}
+
+.builder a {
+    color: #00fff2;
+}
+
+
+.TechnoBlade {
+    color: #f700ff;
+}
+
+.pig {
+    color: #f700ff;
+}
+
+.house {
+    color: #b96300;
+}
+
+.sa {
+    color: red;
+}
+
+.owner {
+    color: red;
+    
+}
 
 /* footer */
 .footer-1 {
