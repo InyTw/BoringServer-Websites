@@ -11,33 +11,33 @@
 <body>
 
     <div class="navbar">
-        <div class="nav-button"><a href="/main.html">Home</a></div>
-        <div class="nav-button"><a href="/srv-info.html">Server Info</a></div>
+
+        <div class="nav-button"><a href="/srv-info.html" class="web-link">伺服器資訊</a></div>
+    
     </div>
 
     <div class="container">
         <h1>Boring <span class="golden">Server</span></h1>
         <div class="server-ip">
-            <h2>⬇︎ Minecraft Server IP ⬇︎</h2>
-            <button class="copy-btn" onclick="copyIP()">Copy IP</button>
+            <h2>⬇︎ 歡迎遊玩本伺服器 ⬇︎</h2>
+            <button class="welcome" onclick="welcome()">Welcome</button>
         </div>
     </div>
 
     <script>
-        function copyIP() {
-            navigator.clipboard.writeText("boringsrv.ttfmc.net").then(() => {
-                const button = document.querySelector('.copy-btn');
-                button.innerText = "Copied!";
-                button.style.backgroundColor = "#4CAF50";
+        function welcome() {
+             const button = document.querySelector('.welcome');
+             button.innerText = "Hi 玩家，希望您能開心遊玩伺服器\n本生存伺服器將開啟您的一段新旅行";
+             utton.style.backgroundColor = "#0189FF";
+             button.style.Color = "#FFFFFF"
 
-                setTimeout(() => {
-                    button.innerText = "Copy IP";
-                    button.style.backgroundColor = "#007BFF";
-                }, 2000);
-            }).catch(err => {
-                console.error("Error copying IP: ", err);
-            });
-        }
+         setTimeout(() => {
+             button.innerText = "Welcome";
+             button.style.Color = "#FFFFFF"
+             button.style.backgroundColor = "#007BFF";
+        }, 5500)
+      }
+
     </script>
 
     <div class="srv-about">
@@ -57,7 +57,12 @@
     </div>
 
     <footer class="footer-1">
-        <p class="power"><h6>© 2025 BoringSRV 保留所有權利</h6></p>
+        <p class="link"><p class="footer-link">連結</p>
+        <p class="discord"><a href="https://discord.gg/vpbt9tSfju" target="_blank" class="footer-dc">Discord</a></p>
+        <p class="youtube"><a href="https://youtube.com/@Boringsrv-tw" target="_blank" class="footer-yt">YouTube</a></p>
+        <p class="docs"><p class="footer-docs">文檔</p>
+        <p class="docs-link"><a href="/docs.html" target="_blank" class="footer-docs-link">DOCS</a></p>
+        <p class="power"><h6 class="footer-power">© 2025 BoringSRV 保留所有權利</h6></p>
     </footer>
 
 </body>

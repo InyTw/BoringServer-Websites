@@ -13,7 +13,7 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     padding: 1em;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     gap: 1.5em;
 }
 
@@ -23,7 +23,7 @@ body {
     font-size: 1.2em;
     font-weight: bold;
     transition: color 0.3s ease, transform 0.3s ease;
-    padding: 0.5em 1em;
+    padding: 0.3em 0.3em;
     border-radius: 0.5em;
 }
 
@@ -167,24 +167,79 @@ h1 .aqua {
 
 /* footer */
 .footer-1 {
-    text-align: center;
-    background-color: #555555;
-    max-width: 10000px;
-    max-height: 10000px;
-    margin: 0em auto;
-    padding: 1ex;
-
+    background-color: #242424;
+    padding: 0.1em 0.1em;
+    border-radius: 0.1em;
 }
 
-.power {
-    text-align: center;
-    max-width: 50px;
-    max-height: 50px;
-    padding: 0em auto;
-    margin: 10em auto;
+.footer-link {
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 0.5em 0.1em;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: left;
 }
 
-h6 {
+.footer-dc {
+    color: #a1a1a1;
+    display: contents;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-dc:hover {
+    color: #424242;
+    transform: none;
+}
+
+
+.footer-yt {
+    color: #a1a1a1;
+    display: contents;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-yt:hover {
+    color: #424242;
+    transform: none;
+}
+
+.footer-docs {
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 0.5em 0.1em;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: left;
+}
+
+.footer-docs-link {
+    color: #a1a1a1;
+    display: contents;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+    border-radius: 0.5em;
+}
+
+.footer-docs-link:hover {
+    color: #424242;
+    transform: none;
+}
+
+.footer-power {
+    text-align: center;
+    display: flex;
+    justify-content: center;
     font-weight: bold;
     color: white;
 }
